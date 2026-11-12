@@ -1,4 +1,5 @@
 -- SkillHub database (PostgreSQL / Neon)
+DROP TABLE IF EXISTS registrations, workshops, categories, users;
 
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
